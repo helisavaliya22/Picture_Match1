@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative">
+
+    <ImageView
+        android:id="@+id/img_disp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:background="@drawable/image_box"/>
+    <View
+        android:id="@+id/mask1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/picture_box"
+        android:layout_margin="2dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
